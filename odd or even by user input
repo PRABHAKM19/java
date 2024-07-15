@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class meth{
+    public static void main(String args[]){
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("enter a number: ");
+        int a=scanner.nextInt();
+        if (a%2==0){
+            System.out.print("even");
+        }else{
+            System.out.print("odd");
+        }
+    }
+}
