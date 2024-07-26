@@ -1,0 +1,22 @@
+mport java.util.Arrays;
+public class rev{
+    public static void main(String args[]){
+        String a="listen";
+        String t="silent";
+
+        char[] arrA=a.toCharArray();
+        char[] arrT=t.toCharArray();
+
+        Arrays.sort(arrA);
+        Arrays.sort(arrT);
+
+        if (Arrays.equals(arrA, arrT)){
+            System.out.println("anagram");
+
+        }else{
+            System.out.println("not anagram");
+        }
+
+
+    }
+}
