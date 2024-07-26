@@ -1,0 +1,12 @@
+public class rev{
+    public static void main(String args[]){
+        String a="prabha is an AI&DS student";
+        String t="z";
+
+        if (a.contains(String.valueOf(t))){
+            System.out.println("target is found");
+        }else{
+            System.out.println("target is not found");
+        }
+    }
+}
